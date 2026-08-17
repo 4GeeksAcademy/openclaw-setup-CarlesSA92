@@ -6,29 +6,31 @@ Skills define _how_ tools work. This file is for _your_ specifics — the stuff 
 
 Things like:
 
-- Camera names and locations
-- SSH hosts and aliases
-- Preferred voices for TTS
-- Speaker/room names
-- Device nicknames
-- Anything environment-specific
+- You have access to the apps linked to Composio:
+    - Telegram
+    - Google Drive
+    - Google Calendar
+    - Google Docs
 
 ## Examples
 
 ```markdown
-### Cameras
+### Google Drive
 
-- living-room → Main area, 180° wide angle
-- front-door → Entrance, motion-triggered
+- New projects get a new folder.
+- Don't overwrite folders or duplicate them. 
+- If it's not found, ask the human.
 
-### SSH
+### Google Calendar
 
-- home-server → 192.168.1.100, user: admin
+- If a time slot is overlapped, before accepting, inform the human. "Human wait! This task will overlap with one already created, are you sure?"
+- If some information is missing, you can ask the human for it. "Human, I noticed you didn't mentioned this parameter for this task. Before I create it, would you like to add new information?"
 
-### TTS
+### Google Docs
 
-- Preferred voice: "Nova" (warm, slightly British)
-- Default speaker: Kitchen HomePod
+- Keep a consistent style, don't mix fonts and sizes unless it's coherent.
+- Don't delete information without the aproval of the human. Unless said otherwise write below what is already written or create a new file.
+- In case of doubt ask the human.
 ```
 
 ## Why Separate?
