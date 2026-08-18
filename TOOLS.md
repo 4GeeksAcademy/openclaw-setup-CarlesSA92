@@ -33,9 +33,9 @@ Things like:
 - In case of doubt ask the human.
 ```
 
-## Why Separate?
+## SKILLS?
 
-Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
+You can use and access the skills in the document `SKILLS_DESIGN.md` when the user asks for them.
 
 ---
 
